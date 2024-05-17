@@ -76,8 +76,8 @@ The Policy QA System is designed to answer questions about policies available in
 
 ### Approach 3: Auto Merging Retrieval-Based QA
 * **Description**: Uses a `DocStore` and `HierarchicalNodeParser` to chunk, store and index the documents. It looks at a set of leaf nodes and recursively merges subsets of leaf nodes that reference a parent node beyond a given threshold allowing us to consolidate potentially disparate, smaller contexts into a larger context that might help synthesis.
-* **Pros**: Better accuracy, context relevance and groundedness that basic retrieval.
-* **Cons**: High latency than basic retrieval.
+* **Pros**: Better accuracy, context relevance and groundedness than basic retrieval.
+* **Cons**: Higher latency than basic retrieval.
 * **Notebook**: auto_merging_retrieval.ipynb
 
 ### Final Approach: Elasticsearch Retrieval with Reranking-Based QA
@@ -100,8 +100,9 @@ The efficiency of the solution is evaluated based on:
 
 
 ## Setup and Installation
-1) **Run Elasticsearch**
 Remove `\` and run in single line if throws error.
+
+1) **Run Elasticsearch**
 ```bash
 docker run -p 9200:9200 \
   -e "discovery.type=single-node" \
