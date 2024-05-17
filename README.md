@@ -97,7 +97,8 @@ The efficiency of the solution is evaluated based on:
 * **Latency**: The time taken to generate a response.
 * **Total Tokens**: The number of tokens processed.
 * **Total Cost**: The cost associated with processing the tokens.
-**Note:* To evaluate any user query, you could use swagger ui by visiting:
+
+*Note:* To evaluate any user query, you could use swagger ui by visiting:
   ```bash
   http://127.0.0.1:8000/docs
   ``` 
