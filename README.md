@@ -23,26 +23,27 @@ The Policy QA System is designed to answer questions about policies available in
 ## Project Structure
 ```bash
 .
-├── pdfs
-│   ├── GPT - Expense Reimbursement Policy.pdf
-│   ├── GPT - grievance and disciplinary policy.pdf
-│   ├── GPT - leave policy.pdf
-│   ├── GPT - Travel Reimbursement Policy.pdf
-│   ├── GPT- ESOPS policy.pdf
-│   ├── GPT- Information security and IT policy..pdf
-│   ├── GPT- POSH policy.pdf
-│   ├── GPT- Recruitment and Onboarding Policy.pdf
-│   ├── GPT- Remote Work Policy.pdf
-│   └── GPT-parental leave policy.pdf
+├── resources
+│   ├── evaluation_rescords
+│   │   ├── auto_merging_retreival.csv
+│   │   ├── basic_rag.csv
+│   │   └── elasticsearch_reranking.csv
+│   ├── images
+│   └── implementation_notebooks
+│       ├── pdfs
+│       │   ├── GPT - Expense Reimbursement Policy.pdf
+│       │   ├── .
+│       │   ├── .
+│       │   └── GPT-parental leave policy.pdf
+│       ├── auto_merging_retreival.ipynb
+│       ├── basic_retrieval.ipynb
+│       ├── elasticsearch_evaluation.ipynb
+│       ├── knowledge_graph.ipynb
+│       ├── functions.py
+│       ├── evaluation_questions.txt
+│       └── Simpplr DS Assignment.docx
 ├── main.py
-├── functions.py
-├── basic_retrieval.ipynb
-├── knowledge_graph_rag.ipynb
-├── auto_merging_retrieval.ipynb
-├── elasticsearch_evaluation.ipynb
-├── tests
-│   ├── test_main.py
-│   └── test_functions.py
+├── test_functions.py
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
