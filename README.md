@@ -24,7 +24,7 @@ The Policy QA System is designed to answer questions about policies available in
 ```bash
 .
 ├── resources
-│   ├── evaluation_rescords
+│   ├── evaluation_records
 │   │   ├── auto_merging_retreival.csv
 │   │   ├── basic_rag.csv
 │   │   └── elasticsearch_reranking.csv
